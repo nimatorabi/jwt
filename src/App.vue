@@ -1,12 +1,18 @@
 <template>
-  <div>
-    <h2>JWT</h2>
+  <div id="app">
+    <router-view />
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  components: {}
+};
 </script>
 
 <style>
+#app {
+  width: 960px;
+  margin: 1rem auto;
+}
 </style>
